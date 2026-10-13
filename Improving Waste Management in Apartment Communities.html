@@ -865,6 +865,25 @@ body {
 @media (max-width: 768px) {
   .kw-compare-grid { grid-template-columns: 1fr; }
 }
+.cs-nav-back-link,
+.cs-nav-back-link:visited {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--caption);
+  text-decoration: none;
+  margin-top: 32px;
+  padding-left: 12px;
+  transition: color 200ms;
+}
+
+.cs-nav-back-link:hover {
+  color: var(--pink);
+}
 
 </style>
 </head>
